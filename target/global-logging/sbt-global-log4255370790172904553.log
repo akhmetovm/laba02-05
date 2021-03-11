@@ -1,0 +1,7 @@
+[debug] > Exec({file:/C:/Users/pin/IdeaProjects/laba02-05/}laba02-05/package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 11.03.2021 22:38:07
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

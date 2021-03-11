@@ -1,0 +1,22 @@
+[debug] > Exec({file:/C:/Users/pin/IdeaProjects/laba02-05/}laba02-05/package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\pin\IdeaProjects\laba02-05\target\scala-2.11\classes ...
+[error] C:\Users\pin\IdeaProjects\laba02-05\src\main\scala\calcRelevance.scala:67:38: type mismatch;
+[error]  found   : Symbol
+[error]  required: org.apache.spark.sql.Column
+[error]       .withColumn("host", udf_Decode('URL))
+[error]                                      ^
+[error] C:\Users\pin\IdeaProjects\laba02-05\src\main\scala\calcRelevance.scala:69:42: overloaded method value regexp_replace with alternatives:
+[error]   (e: org.apache.spark.sql.Column,pattern: org.apache.spark.sql.Column,replacement: org.apache.spark.sql.Column)org.apache.spark.sql.Column <and>
+[error]   (e: org.apache.spark.sql.Column,pattern: String,replacement: String)org.apache.spark.sql.Column
+[error]  cannot be applied to (Symbol, String, String)
+[error]       .withColumn("host", regexp_replace(regexp_replace('host, "^(http|https)://", ""), """^www\.""",""))
+[error]                                          ^
+[error] two errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 2 s, completed 11.03.2021 23:09:30
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
